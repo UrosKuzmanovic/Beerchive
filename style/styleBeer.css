@@ -1,0 +1,76 @@
+body {
+    background-color: #040404;
+    color: #d8ab4e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.beer-info{
+    font-weight: bolder;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.beer-show{
+    display: inline-block;
+}
+
+.button-rate {
+    margin-top: 30px;
+    width: 190px;
+    height: 30px;
+    background-color: black;
+    color: #d8ab4e;
+    border-color: #d8ab4e;
+    outline: none;
+}
+
+.button-rate:active {
+    background-color: #d8ab4e;
+    color: #040404;
+    border-color: black;
+}
+
+.button-rate:hover {
+    background-color: #d8ab4e;
+    color: #040404;
+    border-color: black;
+}
+
+.beer-range{
+    -webkit-appearance: none;
+    background: #d8ab4e;
+    height: 10px;
+    width: 190px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.beer-range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.back-button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #d8ab4e;
+    color: black;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.back-button:hover{
+    background-color: black;
+    color: #d8ab4e;
+    border-color: #d8ab4e;
+}

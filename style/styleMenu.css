@@ -1,0 +1,36 @@
+body {
+    background-color: #040404;
+    color: #d8ab4e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 0px;
+}
+
+li {
+    padding: 30px;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 30px;
+}
+
+li:hover {
+    background-color: #d8ab4e;
+    color: #040404;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d8ab4e;
+}
